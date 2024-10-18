@@ -1,5 +1,5 @@
 #include <iostream>
-#include <chrono> // For measuring execution time
+#include <chrono> 
 
 using namespace std;
 using namespace std::chrono;
@@ -71,10 +71,10 @@ void measure_execution_time() {
 }
 
 int main() {
-    // Run unit tests
+    
     test_GCD();
     
-    // Measure execution time for both methods
+    
     measure_execution_time();
 
     return 0;
